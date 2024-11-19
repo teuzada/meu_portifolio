@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-principal: #800080bf;
-    --cor-secundário: white;
-    --cor-destaque: grey;
+    --cor-principal: rgb(26, 113, 114);
+    --cor-secundaria: rgb(26, 113, 114);
+    --cor-destaque: rgba(49, 46, 46, 0.486);
 }
 
 body {
@@ -21,4 +21,29 @@ footer a {
 
 footer a:hover {
     color:var(--cor-destaque)
+}
+
+body.dark-mode {
+    background-color: rgba(18, 18, 18, 0.853);
+    color: #ffffff;
+}
+
+.dark-mode {
+    margin-top: 20px;
+}
+
+.dark-mode-btn {
+    display: flex;
+}
+
+.dark-mode-btn {
+    background-color: rgb(44, 62, 80);
+    color: white;
+    border-radius: 150px;
+}
+
+.dark-mode-btn:hover {
+    background-color: #ffffff;
+    color: rgb(44, 62, 80);
+    border-radius: 150px;
 }
